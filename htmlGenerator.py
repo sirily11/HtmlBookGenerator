@@ -1,6 +1,6 @@
 import os
 import mistune
-
+from tqdm import tqdm
 
 class HTMLGenerator:
     def __init__(self, videodir, captiondir):
@@ -10,15 +10,16 @@ class HTMLGenerator:
         self.html_content = []
 
     def read_markdown(self):
-        for l in self.dir_dict:
+        for l in tqdm(self.dir_dict):
             root = l['root']
             files = l['file_list']
             for file in files:
-                path = os.path.join(root, file)
-                with open(path, 'rb') as f:
-                    lines = f.readlines()
-                    markdown = self.__parse_markdown__(lines)
-                    self.html_content.append({"path": path.replace(".md", ".html"), "content": markdown})
+                if ".md" in file:
+                    path = os.path.join(root, file)
+                    with open(path, 'rb') as f:
+                        lines = f.readlines()
+                        markdown = self.__parse_markdown__(lines)
+                        self.html_content.append({"path": path.replace(".md", ".html"), "content": markdown})
 
     def output_HTML(self, color="#bdbdbd"):
         for h in self.html_content:
@@ -38,7 +39,7 @@ class HTMLGenerator:
         markdown = mistune.Markdown()
         html_list = []
         for l in lines:
-            html_list.append(markdown(l.decode("utf8")))
+            html_list.append(markdown(l.decode('utf-8')))
         return html_list
 
     def __generate_dir_dict__(self):
@@ -149,7 +150,7 @@ if "speechtotext" not in os.path.basename(os.getcwd()):
 
 color = input("Color theme[in hex]: ")
 print("Start the html conversion")
-text_dir = "pages\\text"
+text_dir = "pages/text"
 html = HTMLGenerator(text_dir, "")
 html.read_markdown()
 if len(color) > 3:

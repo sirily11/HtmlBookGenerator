@@ -1,17 +1,13 @@
-missing module named resource - imported by posix, G:\speechtotext\htmlGenerator.py
-missing module named posix - imported by os, G:\speechtotext\htmlGenerator.py
-missing module named _posixsubprocess - imported by subprocess, G:\speechtotext\htmlGenerator.py
-missing module named org - imported by pickle, G:\speechtotext\htmlGenerator.py
-missing module named readline - imported by cmd, code, pdb, G:\speechtotext\htmlGenerator.py
-excluded module named _frozen_importlib - imported by importlib, importlib.abc, G:\speechtotext\htmlGenerator.py
-missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, G:\speechtotext\htmlGenerator.py
-missing module named _winreg - imported by platform, G:\speechtotext\htmlGenerator.py
-missing module named _scproxy - imported by urllib.request
-missing module named java - imported by platform, G:\speechtotext\htmlGenerator.py
-missing module named 'java.lang' - imported by platform, G:\speechtotext\htmlGenerator.py, xml.sax._exceptions
-missing module named vms_lib - imported by platform, G:\speechtotext\htmlGenerator.py
-missing module named termios - imported by tty, G:\speechtotext\htmlGenerator.py, getpass
-missing module named grp - imported by tarfile, shutil, G:\speechtotext\htmlGenerator.py
-missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, G:\speechtotext\htmlGenerator.py, netrc, getpass
-missing module named _dummy_threading - imported by dummy_threading, G:\speechtotext\htmlGenerator.py
-missing module named 'org.python' - imported by copy, G:\speechtotext\htmlGenerator.py, xml.sax
+missing module named 'org.python' - imported by pickle, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py, xml.sax
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named _winreg - imported by platform, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named java - imported by platform, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named 'java.lang' - imported by platform, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named winreg - imported by platform, mimetypes, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py, urllib.request
+missing module named nt - imported by os, ntpath, shutil, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named msvcrt - imported by subprocess, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py, getpass
+missing module named _winapi - imported by subprocess, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named _dummy_threading - imported by dummy_threading, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py
+missing module named org - imported by copy, /Users/qiweili/Desktop/Projects/markdown_to_htmlbook/htmlGenerator.py

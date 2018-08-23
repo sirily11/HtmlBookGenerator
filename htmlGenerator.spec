@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['htmlGenerator.py'],
-             pathex=['G:\\speechtotext'],
+             pathex=['/Users/qiweili/Desktop/Projects/markdown_to_htmlbook'],
              binaries=[],
              datas=[],
              hiddenimports=[],
