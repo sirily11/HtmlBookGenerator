@@ -7,6 +7,10 @@ name = "pypi"
 speechrecognition = "*"
 pyaudio = "*"
 watson-developer-cloud = "*"
+mistune = "*"
+pyinstaller = "*"
+"pyqt5" = "*"
+"pyqt5-tools" = "*"
 
 [dev-packages]
 

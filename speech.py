@@ -55,7 +55,7 @@ def write_srt(filename):
 
 # input_filename = input("What is the input file name, ex: *.mp4 ")
 start = time.time()
-voice_to_text(input_filename)
+voice_to_text("")
 
 duration = time.time() - start
 
