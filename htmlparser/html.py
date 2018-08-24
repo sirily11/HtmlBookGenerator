@@ -19,7 +19,7 @@ class HTMLElement:
             self.attrs = ""
 
 
-    def add(self, htmlElement):
+    def add(self, element):
         try:
             if htmlelement.class_name != "HTMLElement":
                 print("You need to add a html element")
@@ -27,13 +27,15 @@ class HTMLElement:
         except Exception as e:
             print("You need to add a html element")
             return
-        self.children.append(htmlelement)
+        self.children.append(element)
 
     def toString(self):
         self.parser()
+        child_str = ""
         if self.children:
-            print(self.children)
-        return self.attrs
+            for child in self.children:
+                child_str += child.toString()
+        return self.attrs + child_str
 
 
 
@@ -43,6 +45,6 @@ class Div(HTMLElement):
 
 
 htmlelement = HTMLElement({"class": "col row", "id": "test id"})
-htmlelement2 = Div({})
+htmlelement2 = Div({"class": "col row", "id": "test id"})
 htmlelement.add(htmlelement2)
 print(htmlelement.toString())
