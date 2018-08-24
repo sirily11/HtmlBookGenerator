@@ -2,24 +2,13 @@ import os
 import mistune
 from tqdm import tqdm
 
+
 class HTMLGenerator:
     def __init__(self, videodir, captiondir):
         self.video_dir = videodir
         self.caption_dir = captiondir
         self.dir_dict = self.__generate_dir_dict__()
         self.html_content = []
-
-    def read_markdown(self):
-        for l in tqdm(self.dir_dict):
-            root = l['root']
-            files = l['file_list']
-            for file in files:
-                if ".md" in file:
-                    path = os.path.join(root, file)
-                    with open(path, 'rb') as f:
-                        lines = f.readlines()
-                        markdown = self.__parse_markdown__(lines)
-                        self.html_content.append({"path": path.replace(".md", ".html"), "content": markdown})
 
     def output_HTML(self, color="#bdbdbd"):
         for h in self.html_content:
@@ -33,14 +22,6 @@ class HTMLGenerator:
 
                 # print(content)
                 f.write(self.__html_tenplate__(title, content=content, nav=nav).encode('utf8'))
-
-    @staticmethod
-    def __parse_markdown__(lines):
-        markdown = mistune.Markdown()
-        html_list = []
-        for l in lines:
-            html_list.append(markdown(l.decode('utf-8')))
-        return html_list
 
     def __generate_dir_dict__(self):
         dir_dict = []
