@@ -4,9 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-speechrecognition = "*"
-pyaudio = "*"
-watson-developer-cloud = "*"
+flask = "*"
+tqdm = "*"
 mistune = "*"
 pyinstaller = "*"
 

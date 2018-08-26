@@ -98,7 +98,7 @@
             $("#sidebar").append(`
             <li class="nav-item">
             <a class="menu-text">${folder_name}</a>
-                <button class="mdl-button mdl-js-button mdl-button--icon">
+                <button class="add-btn mdl-button mdl-js-button mdl-button--icon">
                     <i class="material-icons">
                         add
                     </i>
@@ -119,7 +119,9 @@
         $(`#${folder}`).append(createInputField("file"));
         $("#file-set").click(function () {
             var file_name = $("#name").val();
-            console.log(file_name);
+            if(!file_name.includes(".md")){
+                file_name += ".md";
+            }
             $(`#${folder}`).append(`<a class="nav-link menu-text" href="#">${file_name}</a>`);
             $.post("/create_file",
                 {

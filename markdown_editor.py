@@ -77,4 +77,15 @@ def publish():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    pages_folder = os.path.exists("pages/text")
+    static_folder = os.path.exists("static")
+    template_folder = os.path.exists("templates")
+
+    if static_folder and template_folder:
+        print("read to edit")
+        print("For windows user, please go to http://localhost:8080 instead")
+        app.run(host='0.0.0.0', port=8080)
+    else:
+        print("Copy everything from the zip to this folder")
+        input("Press any key to exit")
+

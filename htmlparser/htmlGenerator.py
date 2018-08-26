@@ -23,9 +23,12 @@ class HTMLGenerator:
         return self
 
     def output_indexHTML(self):
+        filename = str(self.dir_dict[0]['file_list'][0])
+        if ".md" in filename:
+            filename.replace("md","html")
         html = Div({"class": "container h-100"}).add(
             Div({"class": "row h-100 justify-content-center align-items-center"})).add(
-            A({"href": "text/{}/{}".format(self.dir_dict[0]["folder_name"], self.dir_dict[0]['file_list'][0]),
+            A({"href": "text/{}/{}".format(self.dir_dict[0]["folder_name"],filename),
                "style": "font-size:30px"},
               contents="Read")).toString()
 

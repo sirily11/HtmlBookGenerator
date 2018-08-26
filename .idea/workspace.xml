@@ -5,59 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d675ca77-a918-4765-886b-a82e98a5e26d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlparser/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown_editor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scripts/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scripts/htmlToMarkdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scripts/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scripts/turndown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/stylesheet/w3css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/partition/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/partition/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/speechtotext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/speechtotext.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/bootstrap-material-design.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/bootstrap-material-design.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/core/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/core/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/material-kit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/material-kit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/bootstrap-selectpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/bootstrap-tagsinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/jasny-bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/jquery.flexisel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/plugins/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/material-kit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/material-kit.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/material-kit.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheet/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/htmlGenerator.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/out00-Analysis.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/out00-EXE.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/out00-PKG.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/out00-PKG.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/out00-PYZ.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/out00-PYZ.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/warnhtmlGenerator.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/htmlGenerator/xref-htmlGenerator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/htmlGenerator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlparser/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/htmlparser/elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlparser/htmlGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/htmlparser/htmlGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlparser/markdownparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/htmlparser/markdownparser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text/2018-08/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text/2018-08/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text/2018-08/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text/2018-08/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text/2018-09/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text/2018-09/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/text/2018-09/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/text/2018-09/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/converter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/captions/2018-08/vlog1.vtt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-08/3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-09/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/text/2018-09/1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/video/2018-08/somefile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/video/2018-08/somefile2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/video/2018-09/somefile2.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +33,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/markdown_to_htmlbook$html.coverage" NAME="html Coverage Results" MODIFIED="1535075461238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/htmlparser" />
-    <SUITE FILE_PATH="coverage/speechtotext$markdown_editor.coverage" NAME="markdown_editor Coverage Results" MODIFIED="1535317798117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/speechtotext$markdown_editor.coverage" NAME="markdown_editor Coverage Results" MODIFIED="1535320909190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/speechtotext$converter.coverage" NAME="converter Coverage Results" MODIFIED="1535084393648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/speechtotext$test.coverage" NAME="test Coverage Results" MODIFIED="1534988007148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/speechtotext$htmlGenerator__1_.coverage" NAME="htmlGenerator (1) Coverage Results" MODIFIED="1535078353426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/htmlparser" />
@@ -109,7 +75,7 @@
     <session id="-2019615874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -119,6 +85,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Pipfile" value="2" />
           <entry key="css" value="5" />
           <entry key="html" value="14" />
           <entry key="js" value="9" />
@@ -134,6 +101,7 @@
           <entry key="HTML" value="14" />
           <entry key="JavaScript" value="9" />
           <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Profiler Session" value="1" />
           <entry key="Python" value="22" />
           <entry key="TypeScript" value="1" />
@@ -141,13 +109,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Pipfile" value="1" />
           <entry key="Python Console" value="127" />
           <entry key="css" value="87" />
           <entry key="dummy" value="50" />
           <entry key="html" value="7648" />
           <entry key="js" value="571" />
           <entry key="md" value="49" />
-          <entry key="py" value="8299" />
+          <entry key="py" value="8825" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -156,8 +125,8 @@
           <entry key="HTML" value="7648" />
           <entry key="JavaScript" value="571" />
           <entry key="Markdown" value="49" />
-          <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="8426" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Python" value="8952" />
         </counts>
       </usages-collector>
     </session>
@@ -173,24 +142,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htmlparser/htmlGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+            <state relative-caret-position="648">
+              <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <marker date="1535318339078" expanded="true" signature="1477:1579" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -217,14 +177,14 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/markdown_editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            <state relative-caret-position="494">
+              <caret line="90" column="77" selection-start-line="90" selection-start-column="77" selection-end-line="90" selection-end-column="77" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1535316616125" expanded="true" signature="1542:2495" ph="..." />
+                <marker date="1535321107466" expanded="true" signature="1542:2495" ph="..." />
               </folding>
             </state>
           </provider>
@@ -237,18 +197,6 @@
               <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/converter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -316,9 +264,10 @@
         <option value="$PROJECT_DIR$/static/scripts/app.js" />
         <option value="$PROJECT_DIR$/templates/partition/nav.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/markdown_editor.py" />
         <option value="$PROJECT_DIR$/pages/index.html" />
         <option value="$PROJECT_DIR$/htmlparser/htmlGenerator.py" />
+        <option value="$PROJECT_DIR$/Pipfile" />
+        <option value="$PROJECT_DIR$/markdown_editor.py" />
       </list>
     </option>
   </component>
@@ -328,7 +277,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
     <option name="width" value="3841" />
@@ -365,11 +314,6 @@
             <path>
               <item name="speechtotext" type="b2602c69:ProjectViewProjectNode" />
               <item name="speechtotext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="speechtotext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="speechtotext" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="speechtotext" type="b2602c69:ProjectViewProjectNode" />
@@ -563,21 +507,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24894768" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24894768" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.329602" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25995025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25995025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329602" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -837,31 +780,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown_editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1535316616125" expanded="true" signature="1542:2495" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htmlparser/htmlGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        <state relative-caret-position="648">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1535318339078" expanded="true" signature="1477:1579" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown_editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="90" column="77" selection-start-line="90" selection-start-column="77" selection-end-line="90" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1535321107466" expanded="true" signature="1542:2495" ph="..." />
           </folding>
         </state>
       </provider>
