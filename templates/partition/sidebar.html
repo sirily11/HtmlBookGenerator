@@ -1,0 +1,28 @@
+<style>
+    .menu-text {
+        font-size: 15px;
+    }
+</style>
+<ul id="sidebar" class="nav flex-column">
+    {% for folder in folders %}
+    <li class="nav-item" id="{{folder.folder_name}}">
+        <a class="menu-text">
+            {{folder.folder_name}}
+            <button class="mdl-button mdl-js-button mdl-button--icon add-btn">
+                <i id="newfile" class="material-icons">
+                    add
+                </i>
+            </button>
+        </a>
+        {% for file in folder.file_list %}
+        {% if ".md" in file %}
+        <a class="nav-link menu-text" href="#">{{file}}</a>
+        {% endif %}
+        {% endfor %}
+    </li>
+    {% endfor %}
+
+</ul>
+<button id="create" class="mdl-button mdl-js-button">
+    new folder
+</button>
