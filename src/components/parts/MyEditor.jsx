@@ -25,7 +25,7 @@ import createCodeEditorPlugin from "draft-js-code-editor-plugin";
 import "draft-js-inline-toolbar-plugin/lib/plugin.css";
 import "draft-js-image-plugin/lib/plugin.css";
 import "prismjs/themes/prism-twilight.css";
-import MathBlock from "./MathBlock";
+
 //Inline tool bar
 const inlineToolbarPlugin = createInlineToolbarPlugin();
 const { InlineToolbar } = inlineToolbarPlugin;
@@ -44,7 +44,6 @@ export default class CustomEmojiEditor extends Component {
     super(props);
     this.state = {
       editorState: EditorState.createEmpty(),
-      mathParts : ""
     };
     this.changeNum = 0;
   }
@@ -124,6 +123,7 @@ export default class CustomEmojiEditor extends Component {
 
   upload() {
     let raw = convertToRaw(this.state.editorState.getCurrentContent());
+    raw = preprocessMath(raw)
     let markdownString = draftToMarkdown(raw);
     $.post(
       settings.getURL("post/post"),
@@ -146,7 +146,7 @@ export default class CustomEmojiEditor extends Component {
   render() {
     return (
       <div>
-        <div className="editor" onClick={this.focus}>
+        <div className="editor ml-md-5 mr-md-5" onClick={this.focus}>
           <Editor
             editorState={this.state.editorState}
             handleKeyCommand={this.handleKeyCommand}
@@ -176,10 +176,7 @@ export default class CustomEmojiEditor extends Component {
             )}
           </InlineToolbar>
         </div>
-        {JSON.stringify(this.state.mathParts)}<br></br>
-        {JSON.stringify(
-          convertToRaw(this.state.editorState.getCurrentContent())
-        )}
+        {JSON.stringify(convertToRaw(this.state.editorState.getCurrentContent()))}
       </div>
     );
   }
